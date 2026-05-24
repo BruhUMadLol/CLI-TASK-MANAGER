@@ -1,8 +1,8 @@
 package taskmanager;
-public class task {
+public class Task {
     boolean isDone;
     String Title;
-    public task(String Title) {
+    public Task(String Title) {
         this.Title = Title;
         this.isDone = false;
     }
